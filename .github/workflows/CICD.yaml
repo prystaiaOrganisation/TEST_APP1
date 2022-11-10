@@ -6,11 +6,11 @@ on:
     workflows: ["Pull Request Handler"]
     types:
       - completed
-  push:
-    paths-ignore:
-      - 'README.md'
-      - '.github/**'
-    branches: [ 'main', 'release/*', 'feature/*' ]
+   # push:
+     # paths-ignore:
+      #  - 'README.md'
+      #  - '.github/**'
+  #  branches: [ 'main', 'release/*', 'feature/*' ]
 
 permissions:
   contents: read
