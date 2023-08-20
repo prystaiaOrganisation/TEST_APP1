@@ -1,7 +1,7 @@
 {
     "country":  "us",
-    UseCompilerFolder: true,
-    doNotPublishApps: true,
+    "UseCompilerFolder": true,
+    "doNotPublishApps": true,
     "appFolders":  [
     ],
     "testFolders":  [
